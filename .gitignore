@@ -1,0 +1,26 @@
+# Python stuff
+*.pyc
+
+# big files that get downloaded or generated
+data/yalefaces*
+data/eigenfaces.npz
+data/lfw*
+data/working
+# "aligned_images_DB*" is for YouTube faces. That dataset is a PITA to download
+# :(
+data/aligned_images_DB*
+data/anufaces*
+data/kfkeypoints*
+data/plain-vae-rgb
+data/ident-vae-rgb-112
+data/ident-vae-grey-112
+data/plain-vae-grey
+classification-report-*.txt
+data/combined-lfw-anu
+data/.everything-downloaded
+
+# editor/OS cruft
+.#*
+*.swp
+*~
+__MACOSX
